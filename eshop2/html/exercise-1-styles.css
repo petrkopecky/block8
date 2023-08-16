@@ -1,0 +1,69 @@
+header {
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  font-size: 15px;
+  display: inline-block;
+  list-style-type: none;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  color: #6a6a6a;
+  padding: 0 25px 0 25px;
+}
+
+.image {
+  position: relative;
+  display: inline;
+  height: 3rem;
+  margin: 20px;
+}
+
+.logo-div {
+  float: left;
+}
+.menu-div {
+  float: right;
+  margin: 20px;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  background-color: lightgray;
+}
+.clearfix {
+  display: inline-block;
+  width: 100%;
+}
+
+.border-solid {
+  border: 1px solid;
+  width: fit-content;
+}
+
+.margin-20 {
+  margin: 20px;
+}
+
+footer {
+  border: 1px solid;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+footer li {
+  font-size: 15px;
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 25px 0 25px;
+}
